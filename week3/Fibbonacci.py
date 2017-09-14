@@ -12,7 +12,7 @@ def fibbonacci(limit):
     print("=============== Fibbonacci Numbers ===================")
     print(num1, end=" ")
 
-    while num2 <= limit:
+    while num2 <= int(limit):
         print(num2, end=" ")
         newNum = num1 + num2
         num1 = num2

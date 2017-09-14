@@ -6,7 +6,11 @@
     Purpose: A simple menu program
 '''
 
-
+#########################################################
+#
+#   SUB: showMenu
+#
+#########################################################
 def showMenu():
     menuChoice = -99  # Used to get loop started
 
@@ -25,9 +29,19 @@ def showMenu():
                 # get the next choice
                 menuChoice = int(input("Select option: "))
 
+            # EndWhile
             break
 
         except ValueError:
             print("Please type in a valid number. \n")
+        # EndTry
+    # EndWhile
+# EndSub
+
+#########################################################
+#
+#                       MAIN
+#
+#########################################################
 
 showMenu()
