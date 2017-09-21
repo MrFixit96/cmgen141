@@ -1,10 +1,10 @@
-'''
+"""
     Program: NAME OF PROGRAM
     File: sample.py
     Author: James Anderton
     Date: 24-Aug-2017
     Purpose: SOME REASON TO EXIST
-'''
+"""
 
 #########################################################
 #

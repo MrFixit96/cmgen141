@@ -7,10 +7,10 @@
                 which has the larger area and return it to the screen.
 '''
 # INPUTS====================================================================
-r1Length = print("Please enter the length of Rectangle 1: ")
-r1Width = print("Please enter the width of Rectangle 1: ")
-r2Length = print("Please enter the length of Rectangle 2: ")
-r2Width = print("Please enter the width of Rectangle 2: ")
+r1Length = int(input("Please enter the length of Rectangle 1: "))
+r1Width = int(input("Please enter the width of Rectangle 1: "))
+r2Length = int(input("Please enter the length of Rectangle 2: "))
+r2Width = int(input("Please enter the width of Rectangle 2: "))
 
 # PROCESSING====================================================================
 area1 = r1Length * r1Width
