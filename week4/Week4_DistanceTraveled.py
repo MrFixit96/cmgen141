@@ -1,11 +1,11 @@
 '''
-    Program: DistanceTraveled
-    File: DistanceTraveled.py
+    Program: Week4_DistanceTraveled
+    File: Week4_DistanceTraveled.py
     Author: James Anderton
     Date: 20-SEP-2017
     Purpose: A program that asks the user for the speed of a vehicle (in miles per hour)
             and the number of hours it has traveled. It should then use a loop to display the distance
-            the vehicle has traveled for each hour of that time period. limit the time driven to 24 hours
+            the vehicle has traveled for each hour of that time period. Limit the time driven to 24 hours
             and the speed to 1 - 100. Make sure the program can be ran repeatedly until the user decides to quit
 '''
 

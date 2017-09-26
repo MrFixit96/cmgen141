@@ -1,28 +1,28 @@
-"""
-    Program: NAME OF PROGRAM
-    File: sample.py
-    Author: James Anderton
-    Date: 24-Aug-2017
-    Purpose: SOME REASON TO EXIST
-"""
+#
+#     Program: Sample
+#     File: sample.py
+#     Author: James Anderton
+#     Date: 24-SEP-2017
+#     Purpose: A Sample Program with a Menu
+#
 
 #########################################################
 #
-#   SUB: showMenu
+#   SUB: Main
 #
 #########################################################
-def showMenu():
+def Main():
     menuChoice = -99  # Used to get loop started
 
     while True:
         try:
             while menuChoice < 0 or menuChoice > 3:
                 # Show the Menu
-                print("Sample Menu")
+                print("Employee Records Menu")
                 print("==================================")
-                print("\t1. Sample 1")
-                print("\t2. Sample 2")
-                print("\t3. Sample 3")
+                print("\t1. Search for employee")
+                print("\t2. Add employee")
+                print("\t3. Delete employee")
                 print("\t0. Exit")
                 print()
 
@@ -44,22 +44,4 @@ def showMenu():
 #
 #########################################################
 
-showMenu()
-
-
-# SAMPLES
-#*****************************************************************************************************
-
-variableNAME = "stuff"
-CONSTANT = 'stuff'
-
-
-class Elephant:
-    def __init__(self):
-        pass
-
-    def method(self):
-        pass
-
-
-myElephant = Elephant()
+Main()

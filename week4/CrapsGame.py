@@ -18,9 +18,6 @@
 # including this library for the dice generator
 import random
 
-#Turn Debug Printing on or off (1/0)
-DEBUG = 1
-
 #########################################################
 #
 #   SUB: showMenu
@@ -34,25 +31,56 @@ def showMenu():
         try:
             while menuChoice == "Y" or menuChoice == "N":
                 # Show the Menu
+                print()
                 print("Craps Game")
                 print("==================================")
                 print()
+                print("You have won", winCount, "out of", games, "games.")
                 menuChoice = input("Press Y to Start or N to Exit").capitalize()
-
+                rollNum = 1
                 if menuChoice == "Y":
                     die1, die2 = generateDie()
-                    if DEBUG == 1: print(die1,die2)
-                    rollNum =1
-                    winCount += processResults(die1, die2, rollNum)
-                    games +=1
+                    print("\tRoll ",rollNum, ":", die1,die2)
+
+                    newWin, point = firstRoll(die1, die2, rollNum)
+
+                    if newWin >0:
+                        winCount +=newWin
+                        games += 1
+                        continue
+                    elif newWin == -1:
+                        games += 1
+                        continue
+                    else:
+                        # ***Stage 2***
+                        while newWin == 0:
+                            print("Roll #2")
+                            newWin = 0
+                            rollNum += 1
+                            die1, die2 = generateDie()
+                            print("\tRoll ", rollNum, ":",die1, die2)
+                            newWin += nextRoll(die1, die2, rollNum, point)
+                            if newWin > 0:
+                                winCount += newWin
+                                games += 1
+                                break
+                            elif newWin == -1:
+                                games += 1
+                                break
+
+                        # EndWhile
+                    # EndIf
+                elif menuChoice == "N":
+                    print("==================================")
+                    print()
                     print("You have won", winCount, "out of", games, "games.")
-                else:
                     print("Exiting...")
                     exit(0)
+                else:
+                    print("Please type in a valid choice (Y/N). \n")
+                    showMenu()
                 # EndIf
-
             # EndWhile
-            break
 
         except ValueError:
             print("Please type in a valid choice (Y/N). \n")
@@ -75,18 +103,54 @@ def generateDie():
 
 #########################################################
 #
-#   SUB: processResults
+#   SUB:firstRoll
+#   REQUIRES: die1, die2, rollNum
 #
 #########################################################
-def processResults(die1, die2, rollNum):
+def firstRoll(die1, die2, rollNum):
     totalDie = die1 + die2
     win =0
+    point = 0
     if rollNum == 1 and totalDie == 7 or totalDie == 11:
         print("You Win!")
+        print("==================================")
+        print()
         win = 1
     elif rollNum == 1 and totalDie == 2 or totalDie == 3 or totalDie == 12:
         print("You Lose")
+        print("==================================")
+        print()
+        win = -1
+    elif rollNum == 1 and totalDie == 4 or totalDie ==  5 or totalDie == 6 or totalDie == 8 \
+            or totalDie == 9 or totalDie == 10:
+        # continue to second roll
         win = 0
+        point = totalDie
+    # EndIf
+
+    return win, point
+# EndSub
+
+
+#########################################################
+#
+#   SUB: nextRoll
+#   REQUIRES: die1, die2, rollNum, point
+#
+#########################################################
+def nextRoll(die1, die2, rollNum, point):
+    totalDie = die1 + die2
+    win = 0
+    if rollNum > 1 and totalDie == 7:
+        print("You Lose")
+        print("==================================")
+        print()
+        win = -1
+    elif rollNum > 1 and totalDie == point:
+        print("Point!")
+        print("==================================")
+        print()
+        win = 1
     # EndIf
 
     return win
@@ -95,7 +159,7 @@ def processResults(die1, die2, rollNum):
 
 #########################################################
 #
-#                       MAIN
+#                       RUNNER
 #
 #########################################################
 
