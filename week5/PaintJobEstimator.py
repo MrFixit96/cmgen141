@@ -66,13 +66,20 @@ def paint(areaSqFt):
 #
 #########################################################
 def labor(areaToPaint):
-    PAINTER_PER_SQFT = 3.00
-    empCost = areaToPaint * PAINTER_PER_SQFT
+    LABOR_RATE = 3.00
+    print("\t===========================================================")
+    numPainters = int(input("\tHow many painters are on the job? "))
+    painterPerHour = float(input("\tHow many Sq.Ft. can the painters cover per hour? "))
+
+    areaPerPainter = (areaToPaint / numPainters)
+    perEmpCost = areaPerPainter * LABOR_RATE
+    totalCost = areaToPaint * LABOR_RATE
 
     print("\t===========================================================")
-    print("\tLabor cost to paint: $", format(empCost, ',.2f'))
+    print("\tCost per painter: $", format(perEmpCost, ',.2f'))
+    print("\tTotal labor cost to paint: $", format(totalCost, ',.2f'))
 
-    return empCost
+    return totalCost
 # EndSub
 
 

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f5ba08a-ccff-4b23-aa86-ea8ded363e27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week5/FutureValue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week5/PaintJobEstimator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week5/StadiumSeating.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week4/DistanceTraveled.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample.py" afterPath="$PROJECT_DIR$/sample.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week4/CrapsGame.py" afterPath="$PROJECT_DIR$/week4/CrapsGame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week4/MathQuizzer.py" afterPath="$PROJECT_DIR$/week4/MathQuizzer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week5/FutureValue.py" afterPath="$PROJECT_DIR$/week5/FutureValue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week5/PaintJobEstimator.py" afterPath="$PROJECT_DIR$/week5/PaintJobEstimator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PaintJobEstimator.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PaintJobEstimator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week5/PaintJobEstimator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -34,17 +29,17 @@
         <entry file="file://$PROJECT_DIR$/week5/StadiumSeating.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FutureValue.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FutureValue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week5/FutureValue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="218">
+              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -79,14 +74,14 @@
         <option value="$PROJECT_DIR$/week3/PennyPay.py" />
         <option value="$PROJECT_DIR$/week3/DistanceTraveled.py" />
         <option value="$PROJECT_DIR$/week2/AreaOfRectangles.py" />
-        <option value="$PROJECT_DIR$/week5/PaintJobEstimator.py" />
         <option value="$PROJECT_DIR$/week4/DistanceTraveled.py" />
         <option value="$PROJECT_DIR$/week4/Week4_DistanceTraveled.py" />
         <option value="$PROJECT_DIR$/week4/MathQuizzer.py" />
-        <option value="$PROJECT_DIR$/week4/CrapsGame.py" />
         <option value="$PROJECT_DIR$/sample.py" />
         <option value="$PROJECT_DIR$/week4/StadiumSeating.py" />
+        <option value="$PROJECT_DIR$/week4/CrapsGame.py" />
         <option value="$PROJECT_DIR$/week5/FutureValue.py" />
+        <option value="$PROJECT_DIR$/week5/PaintJobEstimator.py" />
       </list>
     </option>
   </component>
@@ -110,7 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,7 +127,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,8 +157,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FutureValue">
-    <configuration name="DistanceTraveled (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PaintJobEstimator">
+    <configuration name="CrapsGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,7 +170,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cmgen141" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/DistanceTraveled.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/CrapsGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,19 +192,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="MathQuizzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PaintJobEstimator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cmgen141" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/MathQuizzer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5/PaintJobEstimator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +244,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MathQuizzer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DistanceTraveled (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.StadiumSeating" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Week4_DistanceTraveled" />
-      <item index="4" class="java.lang.String" itemvalue="Python.FutureValue" />
+      <item index="0" class="java.lang.String" itemvalue="Python.StadiumSeating" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Week4_DistanceTraveled" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FutureValue" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CrapsGame" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PaintJobEstimator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.FutureValue" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Week4_DistanceTraveled" />
-        <item index="2" class="java.lang.String" itemvalue="Python.StadiumSeating" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DistanceTraveled (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MathQuizzer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PaintJobEstimator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FutureValue" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CrapsGame" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Week4_DistanceTraveled" />
+        <item index="4" class="java.lang.String" itemvalue="Python.StadiumSeating" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +278,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -323,7 +317,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/week4/CrapsGame.py</url>
-          <line>155</line>
+          <line>154</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
@@ -344,7 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="25" lean-forward="false" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -352,7 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -401,7 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,14 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week5/PaintJobEstimator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -641,15 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="25" lean-forward="false" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week4/CrapsGame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,15 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week5/StadiumSeating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,14 +637,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/CrapsGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week5/FutureValue.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/StadiumSeating.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/PaintJobEstimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding />
         </state>
       </provider>

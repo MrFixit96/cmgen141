@@ -54,11 +54,10 @@ def showMenu():
                     else:
                         # ***Stage 2***
                         while newWin == 0:
-                            print("Roll #2")
                             newWin = 0
                             rollNum += 1
                             die1, die2 = generateDie()
-                            print("\tRoll ", rollNum, ":",die1, die2)
+                            print("\tRoll #", rollNum, ":",die1, die2)
                             newWin += nextRoll(die1, die2, rollNum, point)
                             if newWin > 0:
                                 winCount += newWin

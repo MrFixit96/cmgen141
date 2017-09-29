@@ -91,7 +91,7 @@ def displayVal(term, interest, presentVal, futureVal):
 
     print("Starting Amt. $ \tTerm\tInterest\tFuture Amt. $")
     print("================================================")
-    print(presentVal, term, interest, format(futureVal, ',.2f'), sep="\t\t\t")
+    print("$" + str(presentVal), "\t\t\t\t", term, "\t", "%" + str(interest), "\t\t", "$" + str(format(futureVal, ',.2f')))
 
 # EndSUB
 
