@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f5ba08a-ccff-4b23-aa86-ea8ded363e27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week6/Physics/FallingDistance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week6/Physics/KineticEnergy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week6/Physics/Physics.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week6/UnitConversion/Converter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week6/UnitConversion/Length.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week6/UnitConversion/Mass.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/MontyPython.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/files.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/files2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/files3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/usdeclar.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week6/UnitConversion/Converter.py" afterPath="$PROJECT_DIR$/week6/UnitConversion/Converter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week6/UnitConversion/Length.py" afterPath="$PROJECT_DIR$/week6/UnitConversion/Length.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week6/UnitConversion/Mass.py" afterPath="$PROJECT_DIR$/week6/UnitConversion/Mass.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +19,8 @@
       <file leaf-file-name="Converter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="374">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#471#508#0" expanded="true" />
               </folding>
@@ -36,21 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Length.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Length.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Length.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="187" column="8" lean-forward="true" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+            <state relative-caret-position="-2889">
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mass.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Mass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1197">
+              <caret line="187" column="12" lean-forward="true" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -111,10 +103,10 @@
         <option value="$PROJECT_DIR$/week7/MontyPython.py" />
         <option value="$PROJECT_DIR$/week7/files2.py" />
         <option value="$PROJECT_DIR$/week7/files3.py" />
-        <option value="$PROJECT_DIR$/week6/UnitConversion/Mass.py" />
         <option value="$PROJECT_DIR$/week6/UnitConversion/Distance.py" />
-        <option value="$PROJECT_DIR$/week6/UnitConversion/Converter.py" />
         <option value="$PROJECT_DIR$/week6/UnitConversion/Length.py" />
+        <option value="$PROJECT_DIR$/week6/UnitConversion/Converter.py" />
+        <option value="$PROJECT_DIR$/week6/UnitConversion/Mass.py" />
       </list>
     </option>
   </component>
@@ -145,21 +137,6 @@
             <path>
               <item name="cmgen141" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmgen141" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmgen141" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmgen141" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmgen141" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmgen141" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmgen141" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmgen141" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cmgen141" type="b2602c69:ProjectViewProjectNode" />
@@ -353,7 +330,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31606767" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31606767" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31606767" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -672,14 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week5/FutureValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week6/Physics/FallingDistance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -738,28 +707,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Mass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Converter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="374">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="e#471#508#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week5/FutureValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="93" column="121" lean-forward="false" selection-start-line="93" selection-start-column="96" selection-end-line="93" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Length.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="187" column="8" lean-forward="true" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+        <state relative-caret-position="-2889">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/UnitConversion/Mass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="187" column="12" lean-forward="true" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
           <folding />
         </state>
       </provider>

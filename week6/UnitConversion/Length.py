@@ -1,9 +1,9 @@
 #
-#     Program: FallingDistance
+#     Program: Length
 #     File: Length.py
 #     Author: James Anderton
 #     Date: 03-OCT-2017
-#     Purpose: a program to calculate the distance an object would fall given the duration of the fall.
+#     Purpose: a program to convert the scale of the length of one object to another (ie. standard to metric)
 #
 
 

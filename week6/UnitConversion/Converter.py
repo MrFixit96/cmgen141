@@ -33,9 +33,9 @@ def displayMenu():
             lengthOut = Length.chooseScale(unitIn, unitOut, lengthIn)
             Length.displayResults(lengthIn, lengthOut, unitIn, unitOut)
         elif menuChoice == 2:
-            mass, velocity = Mass.getInput()
-            energy = Mass.kineticEnergy(mass, velocity)
-            Mass.displayResults(mass, velocity, energy)
+            unitIn, unitOut, massIn = Mass.getInput()
+            massOut = Mass.chooseScale(unitIn, unitOut, massIn)
+            Mass.displayResults(massIn, massOut, unitIn, unitOut)
 
         elif menuChoice == 0:
             print("Exiting...")
