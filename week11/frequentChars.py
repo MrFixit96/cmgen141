@@ -7,6 +7,10 @@
 #
 import string
 
+#Turn on and off debug printing here
+#DEBUG = 1
+DEBUG = 0
+
 #########################################################
 #
 #   SUB: Main
@@ -23,7 +27,7 @@ def Main():
                 choose = Menu()
                 print("Researching", choose)
                 answer = getAnswer(choose)
-                print('Your string was', choose, "and the most frequent character was:", answer)
+                print('Your string was', choose, "and the most frequent character(s) were:", answer)
 
                 temp = input('Do you wish to continue? (Enter Y for yes: ')
                 another = temp[0].upper()
@@ -61,16 +65,34 @@ def Menu():
 #
 #########################################################
 def getAnswer(choose):
-    alphabet = list(string.ascii_lowercase)
-    frequency=[]
-    counter = 0
-    for item in alphabet:
-        counter = counter + 1
-        if item in choose:
-            frequency[counter] += 1
+    alphabet = []
+    for item in list(string.ascii_lowercase):
+        alphabet.append([item,0])
+    # for num in range(len(alphabet)):
+    #     frequency.append(0)
 
-    print(alphabet)
-    print(frequency)
+    for character in list(choose):
+        for item in alphabet:
+            if DEBUG == 1: print(item)
+            if DEBUG == 1: print(character ,item[0])
+            if str(item[0]).lower() == str(character).lower():
+                if DEBUG == 1: print("Found One", character, item[0])
+                item[1] +=1
+
+    if DEBUG == 1: print(alphabet)
+    temp = 0
+    store =[]
+    for item in alphabet:
+        ####Made an adjustment to store most frequent characters in a list in case of a tie (mississippi)
+        if item[1] > temp:
+            temp = item[1]
+            store.clear()
+            store.append(item)
+        elif item[1] == temp:
+            store.append(item)
+
+    return store
+
 # EndSub
 
 
