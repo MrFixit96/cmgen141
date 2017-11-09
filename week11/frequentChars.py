@@ -1,9 +1,10 @@
 #
-#     Program: Sample
-#     File: sample.py
+#     Program: frequentChars
+#     File: frequentChars.py
 #     Author: James Anderton
-#     Date: 24-SEP-2017
-#     Purpose: A Sample Program with a Menu
+#     Date: 09-Nov-2017
+#     Purpose: A program to analyze a string and count the reoccurrences of a character and print out the ones with
+#           the highest totals
 #
 import string
 
