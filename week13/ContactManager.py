@@ -61,7 +61,7 @@ def add(myContacts):
     mm = int(mm)
     yyyy = int(yyyy)
 
-    if (mm == 1 or mm ==3 or mm == 5 or mm == 7 or mm == 8 or mm == 10 or mm ==12_):
+    if mm == 1 or mm ==3 or mm == 5 or mm == 7 or mm == 8 or mm == 10 or mm ==12:
         max1 = 31
     elif (mm == 4 or mm == 6 or mm == 9 or mm == 11):
         max1 = 30
